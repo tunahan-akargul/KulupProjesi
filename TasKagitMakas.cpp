@@ -29,7 +29,7 @@ int main(){
 
     do {
         if (enteredNumber == randomNumber){
-            cout << "Bende aynisini yaptim. Birdaha" << endl;
+            cout << "Bende aynisini aptim. Birdaha" << endl;
             enteredNumber = oyunaBasla();
             randomNumber = randomSayiOlustur();
         }else if (enteredNumber > 3 || enteredNumber < 1){
